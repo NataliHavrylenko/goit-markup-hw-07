@@ -1,0 +1,49 @@
+.about-section {
+    padding-top: 94px;
+    padding-bottom: 0;
+}
+
+.about-cards {
+    display: flex;
+    margin-left: 0;
+}
+
+.about-item {
+    width: 270px;
+    margin-left: 0;
+    
+    &:not(:last-child) {
+    margin-right: 30px;
+    }
+}
+
+.thumb {
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-item {
+    height: 120px;
+
+}
+
+.about-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.42;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.about-description {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
