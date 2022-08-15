@@ -8,17 +8,17 @@
     margin-bottom: 50px;
 }
 
-.work-card {
+.work__cards {
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
 
-.work-card__item {
+.work__card-item {
     position: relative;
 }
 
-.work-card__product {
+.work__card-title {
     position: absolute;
     width: 100%;
     height: 70px;

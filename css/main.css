@@ -238,21 +238,21 @@ body {
   background-color: #188CE8;
 }
 
-.about-section {
+.about {
   padding-top: 94px;
   padding-bottom: 0;
 }
 
-.about-card {
+.about__cards {
   display: flex;
   margin-left: 0;
 }
 
-.about-card__item {
+.about__card-item {
   width: 270px;
   margin-left: 0;
 }
-.about-card__item:not(:last-child) {
+.about__card-item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -265,11 +265,11 @@ body {
   align-items: center;
 }
 
-.about-card__icon {
+.about__card-icon {
   height: 120px;
 }
 
-.about-card__title {
+.about__card-title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -279,7 +279,7 @@ body {
   color: var(--primary-text-color);
 }
 
-.about-card__description {
+.about__card-descr {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -296,17 +296,17 @@ body {
   margin-bottom: 50px;
 }
 
-.work-card {
+.work__cards {
   display: flex;
   justify-content: space-between;
   gap: 30px;
 }
 
-.work-card__item {
+.work__card-item {
   position: relative;
 }
 
-.work-card__product {
+.work__card-title {
   position: absolute;
   width: 100%;
   height: 70px;
@@ -328,7 +328,19 @@ body {
   background: #F5F4FA;
 }
 
-.employee-desc {
+.employees__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.employees__card-item {
+  flex-basis: calc((100% - 90px) / 4);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.employees__descr {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: var(--primary-white-color);
@@ -336,7 +348,7 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-.employee-desc__name {
+.employees__name {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -346,25 +358,13 @@ body {
   color: var(--primary-text-color);
 }
 
-.employee-desc__job-title {
+.employees__job-title {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   margin-bottom: 16px;
-}
-
-.employee-cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
-.employee-cards__item {
-  flex-basis: calc((100% - 90px) / 4);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .social-list {
