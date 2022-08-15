@@ -12,7 +12,7 @@
 
 }
 
-.menu .current {
+.menu .menu__link_current {
     color: var(--accent-color);
 }
 
@@ -44,7 +44,7 @@
     }
 }
 
-.current::after {
+.menu__link_current::after {
     content: "";
     display: block;
     position: absolute;

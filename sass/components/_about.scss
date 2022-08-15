@@ -3,12 +3,12 @@
     padding-bottom: 0;
 }
 
-.about-cards {
+.about-card {
     display: flex;
     margin-left: 0;
 }
 
-.about-item {
+.about-card__item {
     width: 270px;
     margin-left: 0;
     
@@ -26,12 +26,12 @@
     align-items: center;
 }
 
-.icon-item {
+.about-card__icon {
     height: 120px;
 
 }
 
-.about-title {
+.about-card__title {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
@@ -41,7 +41,7 @@
     color: var(--primary-text-color);
 }
 
-.about-description {
+.about-card__description {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
